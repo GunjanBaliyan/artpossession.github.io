@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Welcome</title>
+    </head>
+    <body>
+        <style>
+            
+            .headings{
+                background-color: white;
+                color: #329dd5;
+                text-align: center;
+                position: absolute;
+                left: 40%;
+                top: 30%;
+               
+            }
+            *{
+                background-image: url(./shape-neww.jpg);
+                background-repeat: space;
+                animation: move 5s linear infinite;
+            }
+            @keyframes move {
+            0%,
+           100% { transform: translateY(0); }
+
+           50% { transform: translateY(30px); }
+           }
+
+
+            html{
+                background-color: black;
+            }
+        </style>
+        <div class="container">
+        <h1 class="headings">Signed In Successfully!</h1>
+        </div>
+    </body>
+</html>
